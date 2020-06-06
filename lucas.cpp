@@ -25,5 +25,5 @@ int64_t lucas(int n){
 int main(){
   int N ;
   cin >> N;
-  cout << lucas(N) << endl;
+  cout << lucas(N) << endl; 
 }
