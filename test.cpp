@@ -1,14 +1,10 @@
 #include<iostream>
+#include<vector>
 using namespace std;
-int Av(int a, int b){
-    int c;
-    c = a - b;
-    if (c < 0) return -c;
-    else return c;
-}
 int main(){
-    int x, y;
-    cin >> x >> y;
-    cout << Av(x, y) << endl;
+    vector<int> x(2);
+    x[0] = 1;
+    x[1] = 2;
+    cout << x['a'] << endl;
 
 }
